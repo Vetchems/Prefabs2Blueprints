@@ -1,4 +1,4 @@
-## Prefabs2Blueprints Version 0.5b
+## Prefabs2Blueprints Version 0.5
 Is working as of current version: 1.201  
 This Python script converts Space Engineers prefabs to Blueprints.
 
@@ -33,19 +33,6 @@ Prefab files are not deleted after conversion at the moment, you will need to de
 Also python leaves a `__pycache__` folder after use of the script, it is not needed so delete it
 
 Please report any issues using the [GitHub issue tracker][3].
-
-Changelog:  
-Old Dev Changlog (May not be entirely accurate anymore):  
-0.1 - First version
-
-0.2 - Batch mode, pretty much final release
-
-0.3 - Backwards compatibility
-
-0.4 - Add proper UTF-8 handling, and properly handle nonsense
-
-Start of my fork:  
-0.5b - Fixed for newest version, simple conversion only for now
 
 [0]: https://www.python.org/downloads/
 [1]: https://github.com/WarpZephyr/Prefabs2Blueprints/archive/master.zip
