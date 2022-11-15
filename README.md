@@ -22,7 +22,7 @@ I'm not sure if my new changes break Python 2 Compatibility, Python 3 would be b
 
 When you're done editing your settings, save `configV2.py` and double-click on `converterV2.py`.  
 The files will be converted and you can add the folders with the blueprints to your:  
-`C:/Users/%s/AppData/Roaming/SpaceEngineers/Blueprints/local/`
+`C:/Users/%s/AppData/Roaming/SpaceEngineers/Blueprints/local/`  
 Path where the blueprints are kept
 
 The reason many of the older version's settings are not present is that I couldn't find what they referred to,  
