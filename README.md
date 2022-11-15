@@ -21,9 +21,7 @@ I'm not sure if my new changes break Python 2 Compatibility, Python 3 would be b
    (Explained further in `configV2.py`)
 
 When you're done editing your settings, save `configV2.py` and double-click on `converterV2.py`.  
-The files will be converted and you can add the folders with the blueprints to your:  
-`C:/Users/%s/AppData/Roaming/SpaceEngineers/Blueprints/local/`  
-Path where the blueprints are kept
+The blueprints will be put directly into your blueprints folder automatically
 
 The reason many of the older version's settings are not present is that I couldn't find what they referred to,  
 Such as the dampener settings, or I did not know how to add them at the moment, such as the owner settings  
