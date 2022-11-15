@@ -1,4 +1,4 @@
-## Prefabs2Blueprints Version 0.5
+## Prefabs2Blueprints Version 0.6
 Is working as of current version: 1.201  
 This Python script converts Space Engineers prefabs to Blueprints.
 
