@@ -27,9 +27,6 @@ The reason many of the older version's settings are not present is that I couldn
 Such as the dampener settings, or I did not know how to add them at the moment, such as the owner settings  
 I modified this as a quick solution and it appears to work.
 
-Prefab files are not deleted after conversion at the moment, you will need to delete them yourself,  
-Also python leaves a `__pycache__` folder after use of the script, it is not needed so delete it
-
 Please report any issues using the [GitHub issue tracker][3].
 
 [0]: https://www.python.org/downloads/
