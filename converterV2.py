@@ -51,6 +51,15 @@ def convertPrefabFile(passed_file, new_file):
         with open(passed_file, 'r', encoding="utf-8") as file :
             filedata = file.read()
             filedata = filedata.replace('Prefab', 'ShipBlueprint')
+            if '<TypeId>ShipBlueprintDefinition</TypeId>' in filedata:
+                filedata = filedata.replace('<TypeId>ShipBlueprintDefinition</TypeId>', '<TypeId>MyObjectBuilder_ShipBlueprintDefinition</TypeId>')
+            if not('CubeGrids' in filedata):
+                filedata = filedata.replace('<CubeGrid>', '<CubeGrids><CubeGrid>')
+                filedata = filedata.replace('</CubeGrid>', '</CubeGrid></CubeGrids>')
+            if '<RespawnShip>false</RespawnShip>' in filedata:
+                filedata = filedata.replace('<RespawnShip>false</RespawnShip>', '')
+            if '<RespawnShip>true</RespawnShip>' in filedata:
+                filedata = filedata.replace('<RespawnShip>true</RespawnShip>', '')
         with open(new_file, 'w', encoding="utf-8") as file:
             file.write(filedata)
     except IndexError:
