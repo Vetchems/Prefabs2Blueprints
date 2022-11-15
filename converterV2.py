@@ -1,10 +1,10 @@
 # Prefabs2Blueprints by Vgr v0.3
-# Prefabs2Blueprints modified by WarpZephyr v0.5b
+# Prefabs2Blueprints modified by WarpZephyr v0.5
 # Converts a Space Engineers prefab to a blueprint
 # Big thanks to Keen Software House
 # P2B does not have any copyright, feel free to re-use and modify
 # Please give credit to the original author
-# v0.5b - Fixed for newest version, simple features
+# v0.5 - Re-Added Compatibilty for files with old invalid fields
 
 import fileinput
 import getpass
