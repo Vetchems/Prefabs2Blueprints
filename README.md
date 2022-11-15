@@ -7,11 +7,11 @@ I'm not sure if my new changes break Python 2 Compatibility, Python 3 would be b
 
 ### Requirements
 1. [Download and install Python][0]
-2. [Download the code][1].
+2. [Download the code][1]
 
 ### Using the code
 1. Create a new folder anywhere you like.
-2. Put all the `.sbc` prefabs that you want to convert in that folder. `sbcB5` files are [not needed][2]
+2. Put all the `.sbc` prefabs that you want to convert in that folder. `sbcB5` files are [not needed][2].
 3. Copy the `configV2.py` and `convertV2.py` files into the same folder.
 5. Open `config.py` with any text editor.
 6. Edit `BATCH_PATH` to the full path of the folder you created in step 1.
