@@ -20,7 +20,7 @@ I'm not sure if my new changes break Python 2 Compatibility, Python 3 would be b
 9. You can add something to `APPEND` and `PREPEND`, P2B will respectively append or prepend those to the path.  
    (Explained further in `config.py`)
 
-When you're done editing your settings, save `configV2.py` and double-click on `converterV2.py`.  
+When you're done editing your settings, save `config.py` and double-click on `converter.py`.  
 The blueprints will be put directly into your blueprints folder automatically
 
 The reason many of the older version's settings are not present is that I couldn't find what they referred to,  
